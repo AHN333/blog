@@ -6,8 +6,15 @@
 body {
     text-align: center;
     background-color: paleturquoise;
-    background: rgb(241, 235, 172);
+    background: rgb(174, 242, 245);
     background-image: url(./noise.svg);
     margin-top: 20%;
+}
+
+.homelinks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
 }
 
