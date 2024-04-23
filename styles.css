@@ -3,7 +3,7 @@
     height: auto;
 }
 
-body {
+.main {
     text-align: center;
     background-color: paleturquoise;
     background: rgb(174, 242, 245);
@@ -16,5 +16,25 @@ body {
     flex-direction: column;
     gap: 20px;
     padding: 50px;
+    font-size: 20px;
 }
 
+img {
+    height: auto;
+    width: 50%;
+}
+
+.container {
+    max-width: 250px;
+    padding: 3%;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 120%;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.container.perspective {
+    background-color: white;
+}
