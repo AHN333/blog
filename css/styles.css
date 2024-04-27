@@ -1,0 +1,27 @@
+* {
+    width: auto;
+    height: auto;
+}
+
+.main {
+    text-align: center;
+    background-color: rgb(247, 255, 237);
+    /*background-image: url(./noise.svg);*/
+    margin-top: 5%;
+}
+
+.homelinks {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.homeimg {
+    height: auto;
+    width: 50%;
+}
+
+

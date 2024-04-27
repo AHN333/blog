@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(245, 172, 127);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    border-bottom: 3px solid black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.col {
+    padding: 2%;
+    max-width: 25%;
+}
