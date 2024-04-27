@@ -1,0 +1,15 @@
+.tagyap {
+    background-color: rgba(68, 155, 209, 0.712) ;
+}
+
+.title {
+    margin-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    border-bottom: 2px dashed black;
+}
+
+.material{
+    padding-top: 1%;
+    padding-inline: 15%;
+}
