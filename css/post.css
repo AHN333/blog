@@ -1,11 +1,10 @@
-.tagyap {
+.yap {
     background-color: rgba(68, 155, 209, 0.712) ;
 }
 
-.title {
-    margin-top: 5%;
-    padding-bottom: 3%;
+.header {
     text-align: center;
+    margin-top: 5%;
     border-bottom: 2px dashed black;
 }
 
