@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+    max-width: 250px;
+    padding: 3%;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 120%;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.container.yap {
+    background-color: white;
+}
+
+.date{
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    font-size: 15px;
+}
+
+.category {
+    position: absolute;
+    left: 10px;
+    top: -20px;
+    font-size: 15px;
+}
+
+.tagyap {
+    background-color: rgba(68, 155, 209, 0.712) ;
+}
+
+.title {
+    padding: 5%;
+    text-align: center;
+    border-bottom: 1px dashed black;
+}
+
+.material{
+    margin: 20%;
+    padding: 20%;
+}
