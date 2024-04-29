@@ -1,5 +1,5 @@
-.yap {
-    background-color: rgba(68, 155, 209, 0.712) ;
+.thoughts {
+    background-color: rgb(203, 235, 255) ;
 }
 
 .imgpage {
@@ -30,3 +30,8 @@
     padding-bottom: 5%;
 }
 
+.copyright {
+    border-top: 1px solid black;
+    margin-top: 7%;
+    text-align: center;
+}
