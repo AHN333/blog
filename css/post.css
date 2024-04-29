@@ -1,5 +1,9 @@
-.yap {
-    background-color: rgba(68, 155, 209, 0.712) ;
+.thoughts {
+    background-color: rgb(203, 235, 255) ;
+}
+
+.imgpage {
+    background-color: rgb(252, 242, 150);
 }
 
 .header {
@@ -8,7 +12,26 @@
     border-bottom: 2px dashed black;
 }
 
-.material{
+.postmaterial, .imgmaterial{
     padding-top: 1%;
     padding-inline: 15%;
+}
+
+.imgmaterial {
+    text-align: center;
+}
+
+.indimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    padding-bottom: 5%;
+}
+
+.copyright {
+    border-top: 1px solid black;
+    margin-top: 7%;
+    text-align: center;
 }
