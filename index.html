@@ -38,20 +38,3 @@
     </div>
 </body>
 </html>
-
-<script>
-	if (!document.querySelector('audio').paused) {
-		document.querySelector('.audioplayer').addEventListener('click', function() {
-		document.querySelector('audio').pause();
-		document.querySelector('.audioplayer').textContent = 'PLAY THE MUSIC';
-	});
-	}
-	
-	if (document.querySelector('audio').paused) {
-		document.querySelector('.audioplayer').addEventListener('click', function() {
-			document.querySelector('audio').play();
-			document.querySelector('.audioplayer').textContent = 'STOP THE MUSIC';
-		});
-	}
-
-</script>
