@@ -1,9 +1,5 @@
-.thoughts {
-    background-color: rgb(203, 235, 255) ;
-}
-
-.imgpage {
-    background-color: rgb(252, 242, 150);
+.imgpage, .thoughts {
+    background-color: #F5F5F5;
 }
 
 .header {
