@@ -52,12 +52,12 @@ p:hover{
 
 @media (max-width:660px){
     .header{
-        flex-direction: column;
         text-align: center;
     }
 
     .header video, .gif {
-        width: 60%;
+        width: 30%;
+        height: auto;
     }
 
     h1{
