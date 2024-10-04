@@ -65,4 +65,8 @@ p:hover{
         margin-right: 0%;
         width: 100%;
     }
+
+    .col{
+        max-width: 100%;
+    }
 }
