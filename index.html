@@ -8,16 +8,16 @@
 </head>
 
 <body>
-	<audio autoplay loop>
-		<source src="./images/lucky.mov" type="audio/mpeg">
+	<audio loop>
+		<source src="./home-imgs/lucky.mov" type="audio/mpeg">
 	</audio>
 
 	<div class="content-container">
-		<img class="left" src="./images/dripvert.gif" alt="drip">
+		<img class="left" src="./home-imgs/dripvert.gif" alt="drip">
 	
 		<div class="center">
 			<h1>yo</h1>
-			<img class="homeimg" src="./images/swag2.gif" alt="homepage image">
+			<img class="homeimg" src="./home-imgs/swag2.gif" alt="homepage image">
 			<div class="homelinks">
 				<a href="thoughts.html">yapcity</a>
 				<a href="posts.html">life</a>
@@ -28,13 +28,33 @@
 			</div>-->
 		</div>
 		
-		<img class="right" src="./images/dripvert.gif" alt="drip">
+		<img class="right" src="./home-imgs/dripvert.gif" alt="drip">
 	</div>
 
-	<p class="audioplayer">STOP THE MUSIC</p>
+	<p class="audioplayer">PLAY THE MUSIC</p>
 	
 	<div class="copyright"></div>
         <p>Copyright © 2024 Andy. All rights reserved.</p>
     </div>
+
+
+	<script>
+	 const audioElement = document.querySelector("audio");
+	 const audioButton = document.querySelector(".audioplayer");
+
+	 audioButton.textContext = audioElement.paused ? "PLAY THE MUSIC" : "PAUSE THE MUSIC";
+
+	 audioButton.addEventListener("click", function() {
+	 	if (audioElement.paused) {
+	 		audioElement.play();
+	 		audioButton.textContent = "PAUSE THE MUSIC";
+	 	} else {
+	 		audioElement.pause();
+	 		audioButton.textContent = "PLAY THE MUSIC";
+	 	}
+	 });
+	</script>
+	
 </body>
 </html>
+

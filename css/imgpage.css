@@ -1,5 +1,10 @@
 body {
-    background-color: rgb(240, 141, 95);
+    background-color: rgb(189, 189, 189);
+}
+
+.desc{
+    text-align: center;
+    padding: 2%;
 }
 
 h1 {
@@ -12,5 +17,29 @@ h1 {
 .copyright {
     border-top: 1px solid black;
     margin-top: 7%;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col {
+    padding: 2%;
+    box-sizing: border-box;
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+img, video {
+    width: 100%;
+    height: auto;
+}
+
+p {
     text-align: center;
 }

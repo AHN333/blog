@@ -84,3 +84,8 @@ a:hover{
     width: 100%;
     position: relative;
 }
+
+.audioplayer:hover{
+    color: yellow;
+    font-size: 120%;
+}
