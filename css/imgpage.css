@@ -35,9 +35,17 @@ h1 {
     max-width: 50%;
 }
 
-img, video {
+img{
     width: 100%;
     height: auto;
+}
+
+video {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
