@@ -9,7 +9,7 @@
     top: 0;
 }
 
-ul{
+.navbar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,12 +19,12 @@ ul{
   background-color: rgb(151, 204, 212);
 }
 
-li{
+.navbar li{
   flex: 1;
   border: 1px solid black;
 }
 
-li a{
+.navbar li a{
   display: block;
   padding: 2%;
   text-align: center;
