@@ -2,8 +2,6 @@
     width: auto;
     height: auto;
     margin: 0;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
     padding: 0;
     box-sizing: border-box;
 }
@@ -39,7 +37,7 @@ h1{
     justify-content: center;
 }
 
-a{
+.center a{
     color: white;
     text-decoration: none;
     font-size: 155%;
@@ -85,10 +83,21 @@ a:hover{
     position: relative;
 }
 
+.audioplayer {
+    border: 2px solid red;
+}
+
 .audioplayer:hover{
     color: yellow;
     font-size: 120%;
 }
+
+
+.container .navbar{
+  justify-content: space-between;
+}
+
+
 
 /* Mobile Styles (max-width: 600px) */
 @media only screen and (max-width: 600px) {
