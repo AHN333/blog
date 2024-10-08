@@ -15,11 +15,15 @@ body {
     padding: 2%;
 }
 
-h1 {
+.header {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 7.5%;
     padding-bottom: 5%;
     border-bottom: 2px dashed black;
+}
+
+h1 {
+    margin-bottom: 3%;
 }
 
 .copyright {
@@ -56,6 +60,17 @@ video {
 
 p {
     text-align: center;
+}
+
+.misc .col {
+    border-bottom: 1px dashed black;
+    max-width: 100%;
+}
+
+.misc .row {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
 
 @media (max-width: 660px){

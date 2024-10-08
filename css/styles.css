@@ -39,7 +39,7 @@ h1{
 
 .center a{
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 155%;
 }
 
@@ -85,11 +85,12 @@ a:hover{
 
 .audioplayer {
     border: 2px solid red;
+    font-size: 80%;
 }
 
 .audioplayer:hover{
     color: yellow;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 
