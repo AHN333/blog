@@ -14,14 +14,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7.5%;
-    padding-bottom: 3%;
+    margin-top: 5%;
+    padding-bottom: 2%;
     border-bottom: 3px solid black;
     max-width: 100%;
 }
 
 .header video, .gif{
-    width: 20%;
+    width: 15%;
     height: auto;
 }
 
@@ -55,6 +55,8 @@ p:hover{
 @media (max-width:660px){
     .header{
         text-align: center;
+        margin-top: 7.5%;
+        padding-bottom: 3%;
     }
 
     .header video, .gif {

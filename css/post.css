@@ -4,7 +4,7 @@
 
 .header {
     text-align: center;
-    margin-top: 7.5%;
+    margin-top: 5%;
     border-bottom: 2px dashed black;
 }
 
@@ -31,4 +31,10 @@
 body{
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        margin-top: 7.5%;
+    }
 }
