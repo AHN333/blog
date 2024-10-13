@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(255,243,158);
+    background-color: rgb(255, 255, 255);
 }
 
 .desc{
@@ -82,7 +82,7 @@ p {
 }
 
 .misc img {
-    width: 65%;
+    width: 40%;
     height: auto;
 }
 
@@ -97,7 +97,7 @@ p {
     }
 
     .misc img{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 }
