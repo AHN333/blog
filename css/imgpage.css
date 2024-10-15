@@ -46,7 +46,7 @@ h1 {
 }
 
 img{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -87,8 +87,14 @@ p {
 }
 
 @media (max-width: 660px){
-    .col {
+    .col{
         max-width: 100%;
+    }
+
+    .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .header{
