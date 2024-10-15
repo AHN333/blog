@@ -81,10 +81,6 @@ p {
     padding: 0;
 }
 
-.misc img {
-    width: 40%;
-    height: auto;
-}
 
 @media (max-width: 660px){
     .col{
